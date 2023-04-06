@@ -84,5 +84,9 @@ Koki Takeyama
 **OWASP MASTG ja Author**  
 Koki Takeyama
 
+
 ## Revision history
 **2023-04-01**
+
+## Connect with Us
+<a href="https://twitter.com/yoshiaki_yasuda"><img src="assets/Images/twitter_icon.png" width="14px"> @yoshiaki_yasuda </a> (Yoshiaki Yasuda, Project Lead)
