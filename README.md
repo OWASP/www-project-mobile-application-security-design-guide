@@ -91,6 +91,6 @@ Koki Takeyama
 ## Connect with Us
 <ul>
 <li>
-<a href="https://twitter.com/yoshiaki_yasuda"><img src="assets/Images/twitter_icon.png" width="14px"> @yoshiaki_yasuda </a> (Yoshiaki Yasuda, Project Lead)</li>
+<a href="https://twitter.com/yoshiaki_yasuda"><img src="assets/images/twitter_icon.png" width="14px"> @yoshiaki_yasuda </a> (Yoshiaki Yasuda, Project Lead)</li>
 </ul>
 
