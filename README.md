@@ -1,4 +1,4 @@
-# OWASP Mobile Application Security Design Guide
+# OWASP Mobile Application Security Design Guide (MASDG)
 OWASP Foundation Web Respository
 
 [![OWASP Incubator](https://img.shields.io/badge/OWASP-incubator-brightgreen)](https://owasp.org/projects/)
