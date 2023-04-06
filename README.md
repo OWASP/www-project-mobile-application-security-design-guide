@@ -1,18 +1,25 @@
-# OWASP Mobile Application Security Design Guide (MASDG)
-OWASP Foundation Web Respository
-
-[![OWASP Incubator](https://img.shields.io/badge/OWASP-incubator-brightgreen)](https://owasp.org/projects/)
+# OWASP Mobile Application Security Design Guide
+[![OWASP Flagship project](https://img.shields.io/badge/OWASP-flagship%20project-brightgreen)](https://owasp.org/projects/)
 [![Creative Commons License](https://img.shields.io/github/license/OWASP/owasp-mastg)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 
+![HTML Document](https://img.shields.io/badge/HTML%20Document-passing-blue)
+![Markdown Document](https://img.shields.io/badge/Markdown-comming%20soon-orange)
+![release date](https://img.shields.io/badge/release%20date-April%202023-red)
+![platform](https://img.shields.io/badge/platform-iOS%20Android-lightgrey)
 
+<BR>
 This is the official GitHub Repository of the OWASP Mobile Application Security Desing Guide (MASDG). The MASDG is a document aimed at establishing a framework for designing, developing, and testing secure mobile applications on Mobile Devices, incorporating our own evaluation criteria (rulebook) and sample code into the [OWASP Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs "MASVS") and [OWASP Mobile Application Security Testing Guide (MASTG) ](https://github.com/OWASP/owasp-mastg "OWASP Mobile Application Security Testing Guide")published by OWASP.
 
+<BR>
 MASDG deals with best practices and samples that are specific to the design requirements for security, supporting the creation of security designs from security requirements considered based on MASVS1.5, as well as evaluating the security design for any issues before conducting testing methods indicated in MASTG.
 
+<BR>
 Our proprietary rulebook targets the MASVS1.5 L1 verification standard and aims to provide comprehensive security baselines when developing mobile applications. While new technologies will always bring risks and create privacy and safety issues, we have created this document to address the threats posed by mobile applications.
 
+<BR>
 We have received feedback on MASVS and MASTG from various communities and industries, and we have developed and published MASDG as we believe it is essential to tackle the security risks associated with mobile applications that have become indispensable in our society. We welcome feedback from everyone.
 
+<BR>
 **Copyright and License**
 
 [![Creative Commons License](assets/images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -24,8 +31,8 @@ Copyright © 2023 LAC Co., Ltd. This work is licensed under a [Creative Commons 
 * Android is a trademark or registered trademark of Google LLC. Company names, product names, and service names mentioned in this document are generally registered trademarks or trademarks of their respective companies. The ®, TM, and © symbols are not used throughout this document.
 * Some of the content in this document is based on the materials provided by OWASP MASVS and OWASP MASTG, and has been replicated and revised.
 
-**Originator**
-Project Site - <https://owasp.org/www-project-mobile-app-security/>  
+**Originator**  
+Project Site - <https://owasp.org/www-project-mobile-app-security/>  
 Project Repository - <https://github.com/OWASP/www-project-mobile-app-security>  
 MAS Official Site - <https://mas.owasp.org/>  
 MAS Document Site - <https://mas.owasp.org/MASVS/>  
@@ -58,3 +65,4 @@ Koki Takeyama
 
 **OWASP MASTG ja Author**  
 Koki Takeyama
+
