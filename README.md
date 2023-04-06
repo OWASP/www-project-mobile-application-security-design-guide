@@ -24,8 +24,8 @@ Copyright © 2023 LAC Co., Ltd. This work is licensed under a [Creative Commons 
 * Android is a trademark or registered trademark of Google LLC. Company names, product names, and service names mentioned in this document are generally registered trademarks or trademarks of their respective companies. The ®, TM, and © symbols are not used throughout this document.
 * Some of the content in this document is based on the materials provided by OWASP MASVS and OWASP MASTG, and has been replicated and revised.
 
-**Originator**  
-Project Site - <https://owasp.org/www-project-mobile-app-security/>  
+**Originator**
+Project Site - <https://owasp.org/www-project-mobile-app-security/>  
 Project Repository - <https://github.com/OWASP/www-project-mobile-app-security>  
 MAS Official Site - <https://mas.owasp.org/>  
 MAS Document Site - <https://mas.owasp.org/MASVS/>  
