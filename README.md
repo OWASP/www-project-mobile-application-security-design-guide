@@ -15,6 +15,14 @@ MASDG deals with best practices and samples that are specific to the design requ
 
 Our proprietary rulebook targets the MASVS1.5 L1 verification standard and aims to provide comprehensive security baselines when developing mobile applications. While new technologies will always bring risks and create privacy and safety issues, we have created this document to address the threats posed by mobile applications.
 
+<BR>
+
+![MASDG_position](assets/images/masdg_position.png)
+
+
+
+<BR>
+
 We have received feedback on MASVS and MASTG from various communities and industries, and we have developed and published MASDG as we believe it is essential to tackle the security risks associated with mobile applications that have become indispensable in our society. We welcome feedback from everyone.
 
 <BR>
