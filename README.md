@@ -9,7 +9,7 @@ OWASP Foundation Web Respository
 ![release date](https://img.shields.io/badge/release%20date-April%202023-red)
 ![platform](https://img.shields.io/badge/platform-iOS%20Android-lightgrey)
 
-This is the official GitHub Repository of the Mobile Application Security Desing Guide (MASDG). The MASDG is a document aimed at establishing a framework for designing, developing, and testing secure mobile applications on Mobile Devices, incorporating our own evaluation criteria (rulebook) and sample code into the [OWASP Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs "MASVS") and [OWASP Mobile Application Security Testing Guide (MASTG) ](https://github.com/OWASP/owasp-mastg "OWASP Mobile Application Security Testing Guide")published by OWASP.
+This is the official GitHub Repository of the Mobile Application Security Design Guide (MASDG). The MASDG is a document aimed at establishing a framework for designing, developing, and testing secure mobile applications on Mobile Devices, incorporating our own evaluation criteria (rulebook) and sample code into the [OWASP Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs "MASVS") and [OWASP Mobile Application Security Testing Guide (MASTG) ](https://github.com/OWASP/owasp-mastg "OWASP Mobile Application Security Testing Guide")published by OWASP.
 
 MASDG deals with best practices and samples that are specific to the design requirements for security, supporting the creation of security designs from security requirements considered based on MASVS1.5, as well as evaluating the security design for any issues before conducting testing methods indicated in MASTG.
 
