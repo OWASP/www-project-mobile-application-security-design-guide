@@ -16,7 +16,7 @@
 * [owasp-mastg Common Configuration Issues (MSTG-CRYPTO-1, MSTG-CRYPTO-2 and MSTG-CRYPTO-3) Insufficient Key Length](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#insufficient-key-length)
 
 ルールブック
-* [業界標準を満たしたキーの長さを設定する（必須）](#業界標準を満たしたキーの長さを設定する必須)
+* [業界標準を満たしたキーの長さを設定する（必須）](業界標準を満たしたキーの長さを設定する（必須）)
 
 #### ハードコードされた暗号化鍵による対称暗号化
 
@@ -41,11 +41,11 @@
 * [owasp-mastg Common Configuration Issues (MSTG-CRYPTO-1, MSTG-CRYPTO-2 and MSTG-CRYPTO-3) Symmetric Encryption with Hard-Coded Cryptographic Keys](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#symmetric-encryption-with-hard-coded-cryptographic-keys)
 
 ルールブック
-* [ソースコード内にキーやパスワードを保存しない（必須）](#ソースコード内にキーやパスワードを保存しない必須)
-* [クライアント証明書のパスワードをローカルに保存しない、またはデバイスの Keychain にロックする（必須）](#クライアント証明書のパスワードをローカルに保存しないまたはデバイスの-keychain-にロックする必須)
-* [クライアント証明書はすべてのインストール間で共有しない（必須）](#クライアント証明書はすべてのインストール間で共有しない必須)
-* [コンテナに依存する場合、暗号化鍵がどのように使用されるかを確認する（必須）](#コンテナに依存する場合暗号化鍵がどのように使用されるかを確認する必須)
-* [モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する（必須）](#モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する必須)
+* [ソースコード内にキーやパスワードを保存しない（必須）](ソースコード内にキーやパスワードを保存しない（必須）)
+* [クライアント証明書のパスワードをローカルに保存しない、またはデバイスの Keychain にロックする（必須）](クライアント証明書のパスワードをローカルに保存しない、またはデバイスの_Keychain_にロックする（必須）)
+* [クライアント証明書はすべてのインストール間で共有しない（必須）](クライアント証明書はすべてのインストール間で共有しない（必須）)
+* [コンテナに依存する場合、暗号化鍵がどのように使用されるかを確認する（必須）](コンテナに依存する場合、暗号化鍵がどのように使用されるかを確認する（必須）)
+* [モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する（必須）](モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する（必須）)
 
 #### 弱いキー生成関数
 
@@ -60,9 +60,9 @@
 * [owasp-mastg Common Configuration Issues (MSTG-CRYPTO-1, MSTG-CRYPTO-2 and MSTG-CRYPTO-3) Weak Key Generation Functions](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#weak-key-generation-functions)
 
 ルールブック
-* [暗号化アルゴリズム (対称暗号化や一部の MAC など) を使用する場合、想定されている特定のサイズの秘密の入力を使用する（必須）](#暗号化アルゴリズム-対称暗号化や一部の-mac-など-を使用する場合想定されている特定のサイズの秘密の入力を使用する必須)
-* [ユーザが提供したパスワードは、暗号鍵を作成するために KDF に渡す（必須）](#ユーザが提供したパスワードは暗号鍵を作成するために-kdf-に渡す必須)
-* [パスワード導出関数を使用する場合は、適切な反復回数を選択する（必須）](#パスワード導出関数を使用する場合は適切な反復回数を選択する必須)
+* [暗号化アルゴリズム (対称暗号化や一部の MAC など) を使用する場合、想定されている特定のサイズの秘密の入力を使用する（必須）](暗号化アルゴリズム_(対称暗号化や一部の_MAC_など)_を使用する場合、想定されている特定のサイズの秘密の入力を使用する（必須）)
+* [ユーザが提供したパスワードは、暗号鍵を作成するために KDF に渡す（必須）](ユーザが提供したパスワードは、暗号鍵を作成するために_KDF_に渡す（必須）)
+* [パスワード導出関数を使用する場合は、適切な反復回数を選択する（必須）](パスワード導出関数を使用する場合は、適切な反復回数を選択する（必須）)
 
 #### 弱い乱数ジェネレーター
 
@@ -74,7 +74,7 @@ Mobile SDK は、十分な人工的ランダム性を持つ数値を生成する
 * [owasp-mastg Common Configuration Issues (MSTG-CRYPTO-1, MSTG-CRYPTO-2 and MSTG-CRYPTO-3) Weak Random Number Generators](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#weak-random-number-generators)
 
 ルールブック
-* [十分な人工的ランダム性を持つ数値を生成する RNG アルゴリズムの標準的な実装を確認する（必須）](#十分な人工的ランダム性を持つ数値を生成する-rng-アルゴリズムの標準的な実装を確認する必須)
+* [十分な人工的ランダム性を持つ数値を生成する RNG アルゴリズムの標準的な実装を確認する（必須）](十分な人工的ランダム性を持つ数値を生成する_RNG_アルゴリズムの標準的な実装を確認する（必須）)
 
 #### 暗号化のカスタム実装
 
@@ -90,8 +90,8 @@ Mobile SDK は、十分な人工的ランダム性を持つ数値を生成する
 * [owasp-mastg Common Configuration Issues (MSTG-CRYPTO-1, MSTG-CRYPTO-2 and MSTG-CRYPTO-3) Custom Implementations of Cryptography](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#custom-implementations-of-cryptography)
 
 ルールブック
-* [暗号化に関するすべての実装では適切にメモリ状態を管理する（必須）](#暗号化に関するすべての実装では適切にメモリ状態を管理する必須)
-* [OS が提供する業界標準の暗号 API を使用する（必須）](#os-が提供する業界標準の暗号-api-を使用する必須)
+* [暗号化に関するすべての実装では適切にメモリ状態を管理する（必須）](暗号化に関するすべての実装では適切にメモリ状態を管理する（必須）)
+* [OS が提供する業界標準の暗号 API を使用する（必須）](OS_が提供する業界標準の暗号_API_を使用する（必須）)
 
 
 #### 不適切な AES 構成
@@ -133,10 +133,10 @@ CBC 、 OFB 、 CFB 、 PCBC 、 GCM モードでは、暗号への初期入力�
 * [owasp-mastg Common Configuration Issues (MSTG-CRYPTO-1, MSTG-CRYPTO-2 and MSTG-CRYPTO-3) Initialization Vectors in stateful operation modes](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#initialization-vectors-in-stateful-operation-modes)
 
 ルールブック
-* [パディングオラクル攻撃に対抗するために、CBC を HMAC と組み合わせたりパディングエラー, MAC エラー, 復号失敗などのエラーが出ないようにする（必須）](#パディングオラクル攻撃に対抗するためにcbc-を-hmac-と組み合わせたりパディングエラー-mac-エラー-復号失敗などのエラーが出ないようにする必須)
-* [暗号化されたデータを保存する場合、Galois/Counter Mode ( GCM )のような、保存データの完全性も保護するブロックモードを使用する（推奨）](#暗号化されたデータを保存する場合galoiscounter-mode--gcm-のような保存データの完全性も保護するブロックモードを使用する推奨)
-* [IV は暗号的に安全な乱数ジェネレーターを用いて生成する（必須）](#iv-は暗号的に安全な乱数ジェネレーターを用いて生成する必須)
-* [初期化ベクトルがカウンターであることが多い CTR モードと GCM モード を使用する場合は、 IV の使用方法が異なることに注意する（必須）](#初期化ベクトルがカウンターであることが多い-ctr-モードと-gcm-モード-を使用する場合は-iv-の使用方法が異なることに注意する必須)
+* [パディングオラクル攻撃に対抗するために、CBC を HMAC と組み合わせたりパディングエラー, MAC エラー, 復号失敗などのエラーが出ないようにする（必須）](パディングオラクル攻撃に対抗するために、CBC_を_HMAC_と組み合わせたりパディングエラー,_MAC_エラー,_復号失敗などのエラーが出ないようにする（必須）)
+* [暗号化されたデータを保存する場合、Galois/Counter Mode ( GCM )のような、保存データの完全性も保護するブロックモードを使用する（推奨）](暗号化されたデータを保存する場合、Galois/Counter_Mode_(_GCM_)のような、保存データの完全性も保護するブロックモードを使用する（推奨）)
+* [IV は暗号的に安全な乱数ジェネレーターを用いて生成する（必須）](IV_は暗号的に安全な乱数ジェネレーターを用いて生成する（必須）)
+* [初期化ベクトルがカウンターであることが多い CTR モードと GCM モード を使用する場合は、 IV の使用方法が異なることに注意する（必須）](初期化ベクトルがカウンターであることが多い_CTR_モードと_GCM_モード_を使用する場合は、_IV_の使用方法が異なることに注意する（必須）)
 
 #### 弱いパディングまたはブロック操作の実装によるパディングオラクル攻撃
 
@@ -148,7 +148,7 @@ CBC 、 OFB 、 CFB 、 PCBC 、 GCM モードでは、暗号への初期入力�
 * [owasp-mastg Common Configuration Issues (MSTG-CRYPTO-1, MSTG-CRYPTO-2 and MSTG-CRYPTO-3) Padding Oracle Attacks due to Weaker Padding or Block Operation Implementations](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#padding-oracle-attacks-due-to-weaker-padding-or-block-operation-implementations)
 
 ルールブック
-* [非対称暗号を行う際のパディングメカニズムとして PKCS#1 v2.0 に取り込まれた OAEP を使用する（必須）](#非対称暗号を行う際のパディングメカニズムとして-pkcs1-v20-に取り込まれた-oaep-を使用する必須)
+* [非対称暗号を行う際のパディングメカニズムとして PKCS#1 v2.0 に取り込まれた OAEP を使用する（必須）](非対称暗号を行う際のパディングメカニズムとして_PKCS#1_v2.0_に取り込まれた_OAEP_を使用する（必須）)
 
 #### ストレージおよびメモリ内のキーの扱い
 
@@ -166,8 +166,8 @@ CBC 、 OFB 、 CFB 、 PCBC 、 GCM モードでは、暗号への初期入力�
 * [owasp-mastg Common Configuration Issues (MSTG-CRYPTO-1, MSTG-CRYPTO-2 and MSTG-CRYPTO-3) Protecting Keys in Storage and in Memory](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#protecting-keys-in-storage-and-in-memory)
 
 ルールブック
-* [メモリダンプを考慮してキーを使用する（必須）](#メモリダンプを考慮してキーを使用する必須)
-* [アカウントやデバイス間で同じキーを共有しない（必須）](#アカウントやデバイス間で同じキーを共有しない必須)
+* [メモリダンプを考慮してキーを使用する（必須）](メモリダンプを考慮してキーを使用する（必須）)
+* [アカウントやデバイス間で同じキーを共有しない（必須）](アカウントやデバイス間で同じキーを共有しない（必須）)
 
 #### 転送時のキーの扱い
 
@@ -178,7 +178,7 @@ CBC 、 OFB 、 CFB 、 PCBC 、 GCM モードでは、暗号への初期入力�
 * [owasp-mastg Common Configuration Issues (MSTG-CRYPTO-1, MSTG-CRYPTO-2 and MSTG-CRYPTO-3) Protecting Keys in Transport](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#protecting-keys-in-transport)
 
 ルールブック
-* [トランスポート対称鍵や他のメカニズムによって、適切なキー保護を行う（必須）](#トランスポート対称鍵や他のメカニズムによって適切なキー保護を行う必須)
+* [トランスポート対称鍵や他のメカニズムによって、適切なキー保護を行う（必須）](トランスポート対称鍵や他のメカニズムによって、適切なキー保護を行う（必須）)
 
 
 ### ハードコードされた対称暗号化
@@ -192,7 +192,7 @@ CBC 、 OFB 、 CFB 、 PCBC 、 GCM モードでは、暗号への初期入力�
 * [owasp-mastg Testing Symmetric Cryptography (MSTG-CRYPTO-1) Overview](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#overview)
 
 ルールブック
-* [ハードコードされた対称暗号化を暗号化の唯一の方法として使用しない（必須）](#ハードコードされた対称暗号化を暗号化の唯一の方法として使用しない必須)
+* [ハードコードされた対称暗号化を暗号化の唯一の方法として使用しない（必須）](ハードコードされた対称暗号化を暗号化の唯一の方法として使用しない（必須）)
 
 #### 静的解析
 
@@ -211,7 +211,7 @@ CBC 、 OFB 、 CFB 、 PCBC 、 GCM モードでは、暗号への初期入力�
 例として、ハードコードされた暗号化鍵の使用状況を確認する方法を示す。最初にアプリを[逆アセンブルおよび逆コンパイル](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05c-Reverse-Engineering-and-Tampering.md#disassembling-and-decompiling)して、 [jadx](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x08a-Testing-Tools.md#jadx) などを使用して Java コードを取得する。<br>
 
 SecretKeySpec クラスが使われているファイルを、再帰的に grep するか、 jadx の検索機能を使って検索する。<br>
-```bash
+```
 grep -r "SecretKeySpec"
 ```
 
@@ -222,7 +222,6 @@ grep -r "SecretKeySpec"
 * [owasp-mastg Testing Symmetric Cryptography (MSTG-CRYPTO-1) Static Analysis](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#static-analysis)
 
 <a id="mstg-crypto-1-dynamic-analysis"></a>
-
 #### 動的解析
 
 暗号化メソッドの[メソッドトレース](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05c-Reverse-Engineering-and-Tampering.md#method-tracing)により、使用されているキーなどの入出力値を把握することができる。暗号化操作の実行中にファイルシステムアクセスを監視して、キーマテリアルの書き込み先または読み取り元を評価する。例えば、[RMS - Runtime Mobile Security](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x08a-Testing-Tools.md#RMS-Runtime-Mobile-Security) の [API モニター](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security#8-api-monitor---android-only)を使用して、ファイルシステムを監視することができる。<br>
@@ -231,75 +230,31 @@ grep -r "SecretKeySpec"
 * [owasp-mastg Testing Symmetric Cryptography (MSTG-CRYPTO-1) Dynamic Analysis](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#dynamic-analysis)
 
 ルールブック
-* [暗号化メソッドのメソッドトレースを実施し、キーマテリアルの書き込み先または読み取り元を確認する（必須）](#暗号化メソッドのメソッドトレースを実施しキーマテリアルの書き込み先または読み取り元を確認する必須)
+* [暗号化メソッドのメソッドトレースを実施し、キーマテリアルの書き込み先または読み取り元を確認する（必須）](暗号化メソッドのメソッドトレースを実施し、キーマテリアルの書き込み先または読み取り元を確認する（必須）)
 
 ### ルールブック
-- [暗号化要件](#暗号化要件)
-  - [MSTG-CRYPTO-1](#mstg-crypto-1)
-    - [問題のある暗号化構成](#問題のある暗号化構成)
-      - [不十分なキーの長さ](#不十分なキーの長さ)
-      - [ハードコードされた暗号化鍵による対称暗号化](#ハードコードされた暗号化鍵による対称暗号化)
-      - [弱いキー生成関数](#弱いキー生成関数)
-      - [弱い乱数ジェネレーター](#弱い乱数ジェネレーター)
-      - [暗号化のカスタム実装](#暗号化のカスタム実装)
-      - [不適切な AES 構成](#不適切な-aes-構成)
-      - [弱いパディングまたはブロック操作の実装によるパディングオラクル攻撃](#弱いパディングまたはブロック操作の実装によるパディングオラクル攻撃)
-      - [ストレージおよびメモリ内のキーの扱い](#ストレージおよびメモリ内のキーの扱い)
-      - [転送時のキーの扱い](#転送時のキーの扱い)
-    - [ハードコードされた対称暗号化](#ハードコードされた対称暗号化)
-      - [静的解析](#静的解析)
-      - [動的解析](#動的解析)
-    - [ルールブック](#ルールブック)
-      - [業界標準を満たしたキーの長さを設定する（必須）](#業界標準を満たしたキーの長さを設定する必須)
-      - [ソースコード内にキーやパスワードを保存しない（必須）](#ソースコード内にキーやパスワードを保存しない必須)
-      - [クライアント証明書のパスワードをローカルに保存しない、またはデバイスの Keychain にロックする（必須）](#クライアント証明書のパスワードをローカルに保存しないまたはデバイスの-keychain-にロックする必須)
-      - [クライアント証明書はすべてのインストール間で共有しない（必須）](#クライアント証明書はすべてのインストール間で共有しない必須)
-      - [コンテナに依存する場合、暗号化鍵がどのように使用されるかを確認する（必須）](#コンテナに依存する場合暗号化鍵がどのように使用されるかを確認する必須)
-      - [モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する（必須）](#モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する必須)
-      - [暗号化アルゴリズム (対称暗号化や一部の MAC など) を使用する場合、想定されている特定のサイズの秘密の入力を使用する（必須）](#暗号化アルゴリズム-対称暗号化や一部の-mac-など-を使用する場合想定されている特定のサイズの秘密の入力を使用する必須)
-      - [ユーザが提供したパスワードは、暗号鍵を作成するために KDF に渡す（必須）](#ユーザが提供したパスワードは暗号鍵を作成するために-kdf-に渡す必須)
-      - [パスワード導出関数を使用する場合は、適切な反復回数を選択する（必須）](#パスワード導出関数を使用する場合は適切な反復回数を選択する必須)
-      - [十分な人工的ランダム性を持つ数値を生成する RNG アルゴリズムの標準的な実装を確認する（必須）](#十分な人工的ランダム性を持つ数値を生成する-rng-アルゴリズムの標準的な実装を確認する必須)
-      - [暗号化に関するすべての実装では適切にメモリ状態を管理する（必須）](#暗号化に関するすべての実装では適切にメモリ状態を管理する必須)
-      - [OS が提供する業界標準の暗号 API を使用する（必須）](#os-が提供する業界標準の暗号-api-を使用する必須)
-      - [パディングオラクル攻撃に対抗するために、CBC を HMAC と組み合わせたりパディングエラー, MAC エラー, 復号失敗などのエラーが出ないようにする（必須）](#パディングオラクル攻撃に対抗するためにcbc-を-hmac-と組み合わせたりパディングエラー-mac-エラー-復号失敗などのエラーが出ないようにする必須)
-      - [暗号化されたデータを保存する場合、Galois/Counter Mode ( GCM )のような、保存データの完全性も保護するブロックモードを使用する（推奨）](#暗号化されたデータを保存する場合galoiscounter-mode--gcm-のような保存データの完全性も保護するブロックモードを使用する推奨)
-      - [IV は暗号的に安全な乱数ジェネレーターを用いて生成する（必須）](#iv-は暗号的に安全な乱数ジェネレーターを用いて生成する必須)
-      - [初期化ベクトルがカウンターであることが多い CTR モードと GCM モード を使用する場合は、 IV の使用方法が異なることに注意する（必須）](#初期化ベクトルがカウンターであることが多い-ctr-モードと-gcm-モード-を使用する場合は-iv-の使用方法が異なることに注意する必須)
-      - [非対称暗号を行う際のパディングメカニズムとして PKCS#1 v2.0 に取り込まれた OAEP を使用する（必須）](#非対称暗号を行う際のパディングメカニズムとして-pkcs1-v20-に取り込まれた-oaep-を使用する必須)
-      - [メモリダンプを考慮してキーを使用する（必須）](#メモリダンプを考慮してキーを使用する必須)
-      - [アカウントやデバイス間で同じキーを共有しない（必須）](#アカウントやデバイス間で同じキーを共有しない必須)
-      - [トランスポート対称鍵や他のメカニズムによって、適切なキー保護を行う（必須）](#トランスポート対称鍵や他のメカニズムによって適切なキー保護を行う必須)
-      - [ハードコードされた対称暗号化を暗号化の唯一の方法として使用しない（必須）](#ハードコードされた対称暗号化を暗号化の唯一の方法として使用しない必須)
-      - [暗号化メソッドのメソッドトレースを実施し、キーマテリアルの書き込み先または読み取り元を確認する（必須）](#暗号化メソッドのメソッドトレースを実施しキーマテリアルの書き込み先または読み取り元を確認する必須)
-  - [MSTG-CRYPTO-2](#mstg-crypto-2)
-    - [問題のある暗号化構成](#問題のある暗号化構成-1)
-    - [暗号化標準アルゴリズムの構成](#暗号化標準アルゴリズムの構成)
-      - [静的解析](#静的解析-1)
-      - [動的解析](#動的解析-1)
-    - [ルールブック](#ルールブック-1)
-      - [適切な暗号化標準アルゴリズムの構成（必須）](#適切な暗号化標準アルゴリズムの構成必須)
-      - [getInstance のすべての呼び出しで、セキュリティサービスのプロバイダを指定していないことを確認する（必須）](#getinstance-のすべての呼び出しでセキュリティサービスのプロバイダを指定していないことを確認する必須)
-  - [MSTG-CRYPTO-3](#mstg-crypto-3)
-    - [問題のある暗号化構成](#問題のある暗号化構成-2)
-    - [暗号化標準アルゴリズムの構成](#暗号化標準アルゴリズムの構成-1)
-  - [MSTG-CRYPTO-4](#mstg-crypto-4)
-    - [セキュアでない、または非推奨な暗号化アルゴリズム](#セキュアでないまたは非推奨な暗号化アルゴリズム)
-    - [暗号化標準アルゴリズムの構成](#暗号化標準アルゴリズムの構成-2)
-    - [ルールブック](#ルールブック-2)
-      - [セキュアでない、または非推奨な暗号化アルゴリズムは使用しない（必須）](#セキュアでないまたは非推奨な暗号化アルゴリズムは使用しない必須)
-  - [MSTG-CRYPTO-5](#mstg-crypto-5)
-    - [暗号化鍵の利用目的と再利用の検証](#暗号化鍵の利用目的と再利用の検証)
-      - [静的解析](#静的解析-2)
-      - [動的解析](#動的解析-2)
-    - [ルールブック](#ルールブック-3)
-      - [目的に応じた暗号化を使用する（必須）](#目的に応じた暗号化を使用する必須)
-  - [MSTG-CRYPTO-6](#mstg-crypto-6)
-    - [乱数ジェネレーターの選択](#乱数ジェネレーターの選択)
-      - [セキュアな乱数ジェネレーター](#セキュアな乱数ジェネレーター)
-      - [セキュアでない乱数ジェネレーター](#セキュアでない乱数ジェネレーター)
-    - [ルールブック](#ルールブック-4)
-      - [セキュアな乱数ジェネレーターと設定を使用する（必須）](#セキュアな乱数ジェネレーターと設定を使用する必須)
+1. [業界標準を満たしたキーの長さを設定する（必須）](業界標準を満たしたキーの長さを設定する（必須）)
+1. [ソースコード内にキーやパスワードを保存しない（必須）](ソースコード内にキーやパスワードを保存しない（必須）)
+1. [クライアント証明書のパスワードをローカルに保存しない、またはデバイスの Keychain にロックする（必須）](クライアント証明書のパスワードをローカルに保存しない、またはデバイスの_Keychain_にロックする（必須）)
+1. [クライアント証明書はすべてのインストール間で共有しない（必須）](クライアント証明書はすべてのインストール間で共有しない（必須）)
+1. [コンテナに依存する場合、暗号化鍵がどのように使用されるかを確認する（必須）](コンテナに依存する場合、暗号化鍵がどのように使用されるかを確認する（必須）)
+1. [モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する（必須）](モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する（必須）)
+1. [暗号化アルゴリズム (対称暗号化や一部の MAC など) を使用する場合、想定されている特定のサイズの秘密の入力を使用する（必須）](暗号化アルゴリズム_(対称暗号化や一部の_MAC_など)_を使用する場合、想定されている特定のサイズの秘密の入力を使用する（必須）)
+1. [ユーザが提供したパスワードは、暗号鍵を作成するために KDF に渡す（必須）](ユーザが提供したパスワードは、暗号鍵を作成するために_KDF_に渡す（必須）)
+1. [パスワード導出関数を使用する場合は、適切な反復回数を選択する（必須）](パスワード導出関数を使用する場合は、適切な反復回数を選択する（必須）)
+1. [十分な人工的ランダム性を持つ数値を生成する RNG アルゴリズムの標準的な実装を確認する（必須）](十分な人工的ランダム性を持つ数値を生成する_RNG_アルゴリズムの標準的な実装を確認する（必須）)
+1. [暗号化に関するすべての実装では適切にメモリ状態を管理する（必須）](暗号化に関するすべての実装では適切にメモリ状態を管理する（必須）)
+1. [OS が提供する業界標準の暗号 API を使用する（必須）](OS_が提供する業界標準の暗号_API_を使用する（必須）)
+1. [パディングオラクル攻撃に対抗するために、CBC を HMAC と組み合わせたりパディングエラー, MAC エラー, 復号失敗などのエラーが出ないようにする（必須）](パディングオラクル攻撃に対抗するために、CBC_を_HMAC_と組み合わせたりパディングエラー,_MAC_エラー,_復号失敗などのエラーが出ないようにする（必須）)
+1. [暗号化されたデータを保存する場合、Galois/Counter Mode ( GCM )のような、保存データの完全性も保護するブロックモードを使用する（推奨）](暗号化されたデータを保存する場合、Galois/Counter_Mode_(_GCM_)のような、保存データの完全性も保護するブロックモードを使用する（推奨）)
+1. [IV は暗号的に安全な乱数ジェネレーターを用いて生成する（必須）](IV_は暗号的に安全な乱数ジェネレーターを用いて生成する（必須）)
+1. [初期化ベクトルがカウンターであることが多い CTR モードと GCM モード を使用する場合は、 IV の使用方法が異なることに注意する（必須）](初期化ベクトルがカウンターであることが多い_CTR_モードと_GCM_モード_を使用する場合は、_IV_の使用方法が異なることに注意する（必須）)
+1. [非対称暗号を行う際のパディングメカニズムとして PKCS#1 v2.0 に取り込まれた OAEP を使用する（必須）](非対称暗号を行う際のパディングメカニズムとして_PKCS#1_v2.0_に取り込まれた_OAEP_を使用する（必須）)
+1. [メモリダンプを考慮してキーを使用する（必須）](メモリダンプを考慮してキーを使用する（必須）)
+1. [アカウントやデバイス間で同じキーを共有しない（必須）](アカウントやデバイス間で同じキーを共有しない（必須）)
+1. [トランスポート対称鍵や他のメカニズムによって、適切なキー保護を行う（必須）](トランスポート対称鍵や他のメカニズムによって、適切なキー保護を行う（必須）)
+1. [ハードコードされた対称暗号化を暗号化の唯一の方法として使用しない（必須）](ハードコードされた対称暗号化を暗号化の唯一の方法として使用しない（必須）)
+1. [暗号化メソッドのメソッドトレースを実施し、キーマテリアルの書き込み先または読み取り元を確認する（必須）](暗号化メソッドのメソッドトレースを実施し、キーマテリアルの書き込み先または読み取り元を確認する（必須）)
 
 #### 業界標準を満たしたキーの長さを設定する（必須）
 
@@ -327,8 +282,8 @@ grep -r "SecretKeySpec"
 サンプルコードは以下ルールブックを参照。
 
 ルールブック
-* [Keychain に初めてインポートする場合、ユーザへ証明書ストレージを保護するためにロック画面の PIN またはパスワードを設定するよう促す（必須）](0x03-MASDG-Data_Storage_and_Privacy_Requirements.md#keychain-に初めてインポートする場合ユーザへ証明書ストレージを保護するためにロック画面の-pin-またはパスワードを設定するよう促す必須)
-* [Android のネイティブなメカニズムが機密情報を特定するかどうかを判断する（必須）](0x03-MASDG-Data_Storage_and_Privacy_Requirements.md#android-のネイティブなメカニズムが機密情報を特定するかどうかを判断する必須)
+* [Keychain に初めてインポートする場合、ユーザへ証明書ストレージを保護するためにロック画面の PIN またはパスワードを設定するよう促す（必須）](Keychain_に初めてインポートする場合、ユーザへ証明書ストレージを保護するためにロック画面の_PIN_またはパスワードを設定するよう促す（必須）)
+* [Android のネイティブなメカニズムが機密情報を特定するかどうかを判断する（必須）](Android_のネイティブなメカニズムが機密情報を特定するかどうかを判断する（必須）)
 
 これに違反する場合、以下の可能性がある。
 * パスワードが第三者に読み取られ悪用される。
@@ -364,10 +319,10 @@ grep -r "SecretKeySpec"
 #### モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する（必須）
 
 モバイルアプリで対称暗号化が使用される場合は常に秘密鍵を安全なデバイスストレージに保存する必要がある。<br>
-Android プラットフォームでの秘密鍵の保存方法については、「[暗号化キーの保存](0x03-MASDG-Data_Storage_and_Privacy_Requirements.md#暗号化キーの保存)」を参照。
+Android プラットフォームでの秘密鍵の保存方法については、「[暗号化キーの保存](暗号化キーの保存)」を参照。
 
 ルールブック
-* [暗号化キーの保存方法（必須）](0x03-MASDG-Data_Storage_and_Privacy_Requirements.md#暗号化キーの保存方法必須)
+* [暗号化キーの保存方法（必須）](暗号化キーの保存方法（必須）)
 
 これに違反する場合、以下の可能性がある。
 * 秘密鍵が他アプリや第三者に読み取られる。
@@ -413,7 +368,7 @@ Android プラットフォームでの秘密鍵の保存方法については、
 Android 標準で安全性の高い乱数を生成する API については以下を参照する。
 
 ルールブック
-* [セキュアな乱数ジェネレーターと設定を使用する（必須）](#セキュアな乱数ジェネレーターと設定を使用する必須)
+* [セキュアな乱数ジェネレーターと設定を使用する（必須）](セキュアな乱数ジェネレーターと設定を使用する（必須）)
 
 これに違反する場合、以下の可能性がある。
 * 予測攻撃が成功する可能性が高まる。
@@ -423,103 +378,13 @@ Android 標準で安全性の高い乱数を生成する API については以�
 暗号化に関するすべての実装では、ワーカーキー ( AES/DES/Rijndael における中間鍵/派生鍵のようなもの)が消費後またはエラー発生時にメモリから適切に削除する必要がある。また暗号の内部状態も、できるだけ早くメモリから削除する必要がある。
 
 AES実装と実行後の解放:
-```Kotlin
-package com.co.exsample.services
-
-import java.security.SecureRandom
-import javax.crypto.Cipher
-import javax.crypto.SecretKey
-import javax.crypto.spec.GCMParameterSpec
-import javax.crypto.spec.SecretKeySpec
-
-class AesGcmCipher {
-    private val GCM_CIPHER_MODE = "AES/GCM/NoPadding" // Cipher mode (AEC GCM mode)
-    private val GCM_NONCE_LENGTH = 12 // Nonce length
-
-    private var key: SecretKey?
-    private val tagBitLen: Int = 128
-    private var aad: ByteArray?
-    private val random = SecureRandom()
-
-    constructor(key: ByteArray) {
-
-        this.key = SecretKeySpec(key, "AES")
-
-    }
-
-    fun destroy() {
-        // release
-        this.key = null
-    }
-
-    fun encrypt(plainData: ByteArray): ByteArray {
-
-        val cipher = generateCipher(Cipher.ENCRYPT_MODE)
-        val encryptData = cipher.doFinal(plainData)
-
-        // Return nonce + Encrypt Data
-        return cipher.iv + encryptData
-    }
-
-    fun decrypt(cipherData: ByteArray): ByteArray {
-        val nonce = cipherData.copyOfRange(0, GCM_NONCE_LENGTH)
-        val encryptData = cipherData.copyOfRange(GCM_NONCE_LENGTH, cipherData.size)
-
-        val cipher = generateCipher(Cipher.DECRYPT_MODE, nonce)
-
-        // Perform Decryption
-        return cipher.doFinal(encryptData)
-    }
-
-    private fun generateCipher(mode: Int, nonceToDecrypt: ByteArray? = null): Cipher {
-
-        val cipher = Cipher.getInstance(GCM_CIPHER_MODE)
-
-        // Get nonce
-        val nonce = when (mode) {
-            Cipher.ENCRYPT_MODE -> {
-                // Generate nonce
-                val nonceToEncrypt = ByteArray(GCM_NONCE_LENGTH)
-                random.nextBytes(nonceToEncrypt)
-                nonceToEncrypt
-            }
-            Cipher.DECRYPT_MODE -> {
-                nonceToDecrypt ?: throw IllegalArgumentException()
-            }
-            else -> throw IllegalArgumentException()
-        }
-
-        // Create GCMParameterSpec
-        val gcmParameterSpec = GCMParameterSpec(tagBitLen, nonce)
-
-        cipher.init(mode, key, gcmParameterSpec)
-        aad?.let {
-
-            cipher.updateAAD(it)
-        }
-
-        return cipher
-    }
-
-    fun execute(text: String, keyBase64: String) {
-        
-        val key = Base64.getDecoder().decode(keyBase64) 
-        val cipher = AesGcmCipher(key) 
-        
-        // encrypt
-        val encryptData = cipher.encrypt(text.toByteArray())
-        
-        // decrypt
-        val decryptData = cipher.decrypt(encryptData)
-        
-        // release
-        cipher.destroy()
-    }
-}
+```{literalinclude} \sourceCode\暗号化要件\MSTG-CRYPTO-6\RuleBook\AesGcmCipher_removeKey.kt
+   :language: Kotlin
+   :encoding: utf-8
 ```
 
 ルールブック
-* [キーマテリアルは、不要になったらすぐにメモリから消去する必要がある（必須）](0x03-MASDG-Data_Storage_and_Privacy_Requirements.md#キーマテリアルは不要になったらすぐにメモリから消去する必要がある必須)
+* [キーマテリアルは、不要になったらすぐにメモリから消去する必要がある（必須）](キーマテリアルは、不要になったらすぐにメモリから消去する必要がある（必須）)
 
 これに違反する場合、以下の可能性がある。
 * メモリに残された暗号化情報を意図しない処理で利用される。
@@ -530,7 +395,7 @@ class AesGcmCipher {
 Android では Android KeyStore による暗号化が推奨されている。サンプルコードについては、以下のルールブックを参照。
 
 データストレージとプライバシー要件ルールブック
-* [暗号化キーの保存方法（必須）](0x03-MASDG-Data_Storage_and_Privacy_Requirements.md#暗号化キーの保存方法必須)
+* [暗号化キーの保存方法（必須）](暗号化キーの保存方法（必須）)
 
 これに違反する場合、以下の可能性がある。
 * 脆弱性を含む実装となる可能性がある。
@@ -540,28 +405,9 @@ Android では Android KeyStore による暗号化が推奨されている。サ
 CBC モードでは、平文ブロックは直前の暗号文ブロックと XOR される。これにより、ブロックに同じ情報が含まれている場合でも、暗号化された各ブロックは一意であり、ランダムであることが保証される。 
 
 CBCモード実装の例:
-```Kotlin
-package com.co.exsample.services
-
-import javax.crypto.Cipher
-import javax.crypto.KeyGenerator
-import javax.crypto.SecretKey
-
-class CBCCipher {
-
-    fun encrypt(text: String): Pair<ByteArray, ByteArray>{
-        val plaintext: ByteArray = text.encodeToByteArray()
-        val keygen = KeyGenerator.getInstance("AES")
-        keygen.init(256)
-        val key: SecretKey = keygen.generateKey()
-        val cipher = Cipher.getInstance("AES/CBC/PKCS5PADDING")
-        cipher.init(Cipher.ENCRYPT_MODE, key)
-        val ciphertextBuffer: ByteArray = cipher.doFinal(plaintext)
-        val iv: ByteArray = cipher.iv
-
-        return Pair(ciphertextBuffer, iv)
-    }
-}
+```{literalinclude} \sourceCode\暗号化要件\MSTG-CRYPTO-6\RuleBook\CBCCipher.kt
+   :language: Kotlin
+   :encoding: utf-8
 ```
 
 これに違反する場合、以下の可能性がある。
@@ -572,85 +418,9 @@ class CBCCipher {
 暗号化されたデータを保存する場合、Galois/Counter Mode ( GCM )のような、保存データの完全性も保護するブロックモードを使用することを推奨する。後者には、このアルゴリズムが各 TLSv1.2 の実装に必須であり、したがってすべての最新のプラットフォームで利用できるという利点もある。
 
 GCMモード実装の例:
-```Kotlin
-package com.co.exsample.services
-
-import java.security.SecureRandom
-import javax.crypto.Cipher
-import javax.crypto.SecretKey
-import javax.crypto.spec.GCMParameterSpec
-import javax.crypto.spec.SecretKeySpec
-
-class AesGcmCipher {
-    private val GCM_CIPHER_MODE = "AES/GCM/NoPadding" // Cipher mode (AEC GCM mode)
-    private val GCM_NONCE_LENGTH = 12 // Nonce length
-
-    private var key: SecretKey?
-    private val tagBitLen: Int = 128
-    private var aad: ByteArray?
-    private val random = SecureRandom()
-
-    constructor(key: ByteArray) {
-
-        this.key = SecretKeySpec(key, "AES")
-
-    }
-
-    fun destroy() {
-        // release
-        this.key = null
-    }
-
-    fun encrypt(plainData: ByteArray): ByteArray {
-
-        val cipher = generateCipher(Cipher.ENCRYPT_MODE)
-        val encryptData = cipher.doFinal(plainData)
-
-        // Return nonce + Encrypt Data
-        return cipher.iv + encryptData
-    }
-
-    fun decrypt(cipherData: ByteArray): ByteArray {
-        val nonce = cipherData.copyOfRange(0, GCM_NONCE_LENGTH)
-        val encryptData = cipherData.copyOfRange(GCM_NONCE_LENGTH, cipherData.size)
-
-        val cipher = generateCipher(Cipher.DECRYPT_MODE, nonce)
-
-        // Perform Decryption
-        return cipher.doFinal(encryptData)
-    }
-
-    private fun generateCipher(mode: Int, nonceToDecrypt: ByteArray? = null): Cipher {
-
-        val cipher = Cipher.getInstance(GCM_CIPHER_MODE)
-
-        // Get nonce
-        val nonce = when (mode) {
-            Cipher.ENCRYPT_MODE -> {
-                // Generate nonce
-                val nonceToEncrypt = ByteArray(GCM_NONCE_LENGTH)
-                random.nextBytes(nonceToEncrypt)
-                nonceToEncrypt
-            }
-            Cipher.DECRYPT_MODE -> {
-                nonceToDecrypt ?: throw IllegalArgumentException()
-            }
-            else -> throw IllegalArgumentException()
-        }
-
-        // Create GCMParameterSpec
-        val gcmParameterSpec = GCMParameterSpec(tagBitLen, nonce)
-
-        cipher.init(mode, key, gcmParameterSpec)
-        aad?.let {
-
-            cipher.updateAAD(it)
-        }
-
-        return cipher
-    }
-
-}
+```{literalinclude} \sourceCode\暗号化要件\MSTG-CRYPTO-6\RuleBook\AesGcmCipher.kt
+   :language: Kotlin
+   :encoding: utf-8
 ```
 
 これに違反する場合、以下の可能性がある。
@@ -663,7 +433,7 @@ CBC 、 OFB 、 CFB 、 PCBC 、 GCM モードでは、暗号への初期入力�
 サンプルコードは以下ルールブックを参照。
 
 ルールブック
-* [セキュアな乱数ジェネレーターと設定を使用する（必須）](#セキュアな乱数ジェネレーターと設定を使用する必須)
+* [セキュアな乱数ジェネレーターと設定を使用する（必須）](セキュアな乱数ジェネレーターと設定を使用する（必須）)
 
 これに違反する場合、以下の可能性がある。
 * 予測可能な初期化ベクトルが生成される。
@@ -685,15 +455,9 @@ CTR では、新しいブロック操作のたびに、新しい nonce とカウ
 以前は、非対称暗号を行う際のパディングメカニズムとして、 [PKCS1.5](https://www.rfc-editor.org/rfc/rfc2313) パディング(コード: PKCS1Padding) が使われていた。このメカニズムは、パディングオラクル攻撃に対して脆弱である。そのため、 [PKCS#1 v2.0](https://www.rfc-editor.org/rfc/rfc2437) (コード: OAEPwithSHA-256andMGF1Padding 、 OAEPwithSHA-224andMGF1Padding 、 OAEPwithSHA-384andMGF1Padding 、 OAEPwithSHA-512andMGF1Padding ) に取り込まれた OAEP ( Optimal Asymmetric Encryption PaddingOAEPPadding ) を使用するのが最適である。なお、 OAEP を使用した場合でも、 [Kudelskisecurity のブログ](https://research.kudelskisecurity.com/2018/04/05/breaking-rsa-oaep-with-mangers-attack/)で紹介されている Mangers 攻撃としてよく知られている問題に遭遇する可能性があることに注意する。
 
 以下のサンプルコードは、 OAEP の使用方法である。
-```Kotlin
-val key: Key = ...
-val cipher = Cipher.getInstance("RSA/ECB/OAEPPadding")
-        .apply {
-            // To use SHA-256 the main digest and SHA-1 as the MGF1 digest
-            init(Cipher.ENCRYPT_MODE, key, OAEPParameterSpec("SHA-256", "MGF1", MGF1ParameterSpec.SHA1, PSource.PSpecified.DEFAULT))
-            // To use SHA-256 for both digests
-            init(Cipher.ENCRYPT_MODE, key, OAEPParameterSpec("SHA-256", "MGF1", MGF1ParameterSpec.SHA256, PSource.PSpecified.DEFAULT))
-        }
+```{literalinclude} \sourceCode\暗号化要件\MSTG-CRYPTO-6\RuleBook\OAEP.kt
+   :language: Kotlin
+   :encoding: utf-8
 ```
 
 これに違反する場合、以下の可能性がある。
@@ -707,15 +471,9 @@ val cipher = Cipher.getInstance("RSA/ECB/OAEPPadding")
 * エンベロープ暗号化によって保護されたキー:キーが TEE/SE の外部に保存されている場合は、 multi-layered 暗号化の使用を検討する。エンベロープ暗号化アプローチ ([OWASP Cryptographic Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html#encrypting-stored-keys)、 [Google Cloud Key management guide](https://cloud.google.com/kms/docs/envelope-encryption?hl=en)、 [AWS Well-Architected Framework guide](https://docs.aws.amazon.com/wellarchitected/latest/financial-services-industry-lens/use-envelope-encryption-with-customer-master-keys.html) 参照)、またはデータ暗号化鍵をキー暗号化する [HPKE アプローチ](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-hpke-08)を使用する。
 * メモリ内のキー:キーができるだけ短時間しかメモリに残さないようにし、暗号化操作に成功した後やエラー時にキーをゼロにし、無効化することを考慮する。一般的な暗号化のガイドラインについては、[機密データのメモリの消去](https://github.com/veorq/cryptocoding#clean-memory-of-secret-data/)を参照する。より詳細な情報については、[「機密データのメモリのテスト」](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05d-Testing-Data-Storage.md#testing-memory-for-sensitive-data-mstg-storage-10) を参照する。
 以下サンプルコードは、アプリでのメモリ内のキーの漏洩防止用の処理。
-```kotlin
-val secret: ByteArray? = null
-try {
-     //get or generate the secret, do work with it, make sure you make no local copies
-} finally {
-    if (null != secret) {
-        Arrays.fill(secret, 0.toByte())
-    }
-}
+```{literalinclude} \sourceCode\暗号化要件\MSTG-CRYPTO-6\RuleBook\dump_block.kt
+   :language: kotlin
+   :encoding: utf-8
 ```
 
 これに違反する場合、以下の可能性がある。
@@ -737,7 +495,7 @@ try {
 キーを適切に保護するには KeyStore を使用する。 KeyStore によるキーの保管方法は以下ルールブックを参照。
 
 ルールブック
-* [キーがセキュリティハードウェアの内部に保存されているかどうかを確認する（推奨）](0x03-MASDG-Data_Storage_and_Privacy_Requirements.md#キーがセキュリティハードウェアの内部に保存されているかどうかを確認する推奨)
+* [キーがセキュリティハードウェアの内部に保存されているかどうかを確認する（推奨）](キーがセキュリティハードウェアの内部に保存されているかどうかを確認する（推奨）)
 
 これに違反する場合、以下の可能性がある。
 * キーを元に戻され読み取られる。
@@ -783,7 +541,7 @@ try {
 * [owasp-mastg Testing the Configuration of Cryptographic Standard Algorithms (MSTG-CRYPTO-2, MSTG-CRYPTO-3 and MSTG-CRYPTO-4) Overview](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#overview-1)
 
 ルールブック
-* [適切な暗号化標準アルゴリズムの構成（必須）](#適切な暗号化標準アルゴリズムの構成必須)
+* [適切な暗号化標準アルゴリズムの構成（必須）](適切な暗号化標準アルゴリズムの構成（必須）)
 
 #### 静的解析
 
@@ -803,7 +561,7 @@ getInstanceのすべての呼び出しが、プロバイダを指定しないこ
 * [owasp-mastg Testing the Configuration of Cryptographic Standard Algorithms (MSTG-CRYPTO-2, MSTG-CRYPTO-3 and MSTG-CRYPTO-4) Static Analysis](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#static-analysis-1)
 
 ルールブック
-* [getInstance のすべての呼び出しで、セキュリティサービスのプロバイダを指定していないことを確認する（必須）](#getinstance-のすべての呼び出しでセキュリティサービスのプロバイダを指定していないことを確認する必須)
+* [getInstance のすべての呼び出しで、セキュリティサービスのプロバイダを指定していないことを確認する（必須）](getInstance_のすべての呼び出しで、セキュリティサービスのプロバイダを指定していないことを確認する（必須）)
 
 #### 動的解析
 ※ <a href="#mstg-crypto-1-dynamic-analysis">MSTG-CRYPTO-1</a> へ同一内容を記載しているため、本章への記載を省略。
@@ -812,8 +570,8 @@ getInstanceのすべての呼び出しが、プロバイダを指定しないこ
 * [owasp-mastg Testing the Configuration of Cryptographic Standard Algorithms (MSTG-CRYPTO-2, MSTG-CRYPTO-3 and MSTG-CRYPTO-4) Dynamic Analysis](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#dynamic-analysis-1)
 
 ### ルールブック
-1. [適切な暗号化標準アルゴリズムの構成（必須）](#適切な暗号化標準アルゴリズムの構成必須)
-1. [getInstance のすべての呼び出しで、セキュリティサービスのプロバイダを指定していないことを確認する（必須）](#getinstance-のすべての呼び出しでセキュリティサービスのプロバイダを指定していないことを確認する必須)
+1. [適切な暗号化標準アルゴリズムの構成（必須）](適切な暗号化標準アルゴリズムの構成（必須）)
+1. [getInstance のすべての呼び出しで、セキュリティサービスのプロバイダを指定していないことを確認する（必須）](getInstance_のすべての呼び出しで、セキュリティサービスのプロバイダを指定していないことを確認する（必須）)
 
 #### 適切な暗号化標準アルゴリズムの構成（必須）
 
@@ -835,17 +593,9 @@ getInstanceのすべての呼び出しが、プロバイダを指定しないこ
 getInstanceのすべての呼び出しで、セキュリティサービスのプロバイダを指定していないことを確認する。
 以下の方法で、プロバイダを調べる必要がある。
 
-```java
-      KeyStore keyStore = KeyStore.getInstance("AndroidKeyStore");
-      keyStore.load(new KeyStore.LoadStoreParameter() {
-         @Override
-         public KeyStore.ProtectionParameter getProtectionParameter() {
-            return null;
-         }
-      });
-
-      Provider provider = keyStore.getProvider();
-
+```{literalinclude} \sourceCode\暗号化要件\MSTG-CRYPTO-2\rule_book_getprovider.java
+   :language: Java
+   :encoding: utf-8
 ```
 
 これに違反する場合、以下の可能性がある。
@@ -892,20 +642,20 @@ getInstanceのすべての呼び出しで、セキュリティサービスのプ
 * [owasp-mastg Identifying Insecure and/or Deprecated Cryptographic Algorithms (MSTG-CRYPTO-4)](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#identifying-insecure-andor-deprecated-cryptographic-algorithms-mstg-crypto-4)
 
 ルールブック
-* [セキュアでない、または非推奨な暗号化アルゴリズムは使用しない（必須）](#セキュアでないまたは非推奨な暗号化アルゴリズムは使用しない必須)
+* [セキュアでない、または非推奨な暗号化アルゴリズムは使用しない（必須）](セキュアでない、または非推奨な暗号化アルゴリズムは使用しない（必須）)
 
 ### 暗号化標準アルゴリズムの構成
 ※暗号化標準アルゴリズムの構成については、<a href="#mstg-crypto-2-overview">「MSTG-CRYPTO-2 3.2.2. 暗号化標準アルゴリズムの構成」</a>の内容を確認すること。<br>
 
 ### ルールブック
-1. [セキュアでない、または非推奨な暗号化アルゴリズムは使用しない（必須）](#セキュアでないまたは非推奨な暗号化アルゴリズムは使用しない必須)
+1. [セキュアでない、または非推奨な暗号化アルゴリズムは使用しない（必須）](セキュアでない、または非推奨な暗号化アルゴリズムは使用しない（必須）)
 
 #### セキュアでない、または非推奨な暗号化アルゴリズムは使用しない（必須）
 
 業界標準に準拠した最新の暗号化アルゴリズムで実装すること。
 
 具体的な観点としては以下内容に準拠して実装する。
-* 暗号化アルゴリズムは最新で、業界標準に準拠している。業界標準については「[業界標準を満たしたキーの長さを設定する（必須）](#業界標準を満たしたキーの長さを設定する必須)」を参照。
+* 暗号化アルゴリズムは最新で、業界標準に準拠している。業界標準については「[業界標準を満たしたキーの長さを設定する（必須）](業界標準を満たしたキーの長さを設定する（必須）)」を参照。
 * キーの長さは業界標準に準拠し、十分な時間の保護を提供する。ムーアの法則を考慮したさまざまなキーの長さとその保護性能の比較は、[オンライン](https://www.keylength.com/)で確認可能である。
 * 暗号化手段を互いに混合しない:例えば、公開鍵で署名したり、署名に使用した対称鍵を暗号化に再利用しない。
 * 暗号化パラメータを合理的な範囲で適切に定義する。これには、ハッシュ関数出力と少なくとも同じ長さである必要がある暗号ソルト、パスワード導出関数と反復回数の適切な選択(例: PBKDF2 、 scrypt 、 bcrypt ) 、 IV はランダムでユニークであること、目的に合ったブロック暗号化モード(例: ECB は特定の場合を除き使用しない)、キー管理が適切に行われているか(例: 3DES は 3 つの独立したキーを持つべきである)などが含まれるが、これらに限定されない。
@@ -913,7 +663,7 @@ getInstanceのすべての呼び出しで、セキュリティサービスのプ
 サンプルコードは、以下ルールブックを参照。
 
 ルールブック
-* [目的に応じた暗号化を使用する（必須）](#目的に応じた暗号化を使用する必須)
+* [目的に応じた暗号化を使用する（必須）](目的に応じた暗号化を使用する（必須）)
 
 これに違反する場合、以下の可能性がある。
 * 脆弱な暗号化処理となる可能性がある。
@@ -957,16 +707,16 @@ getInstanceのすべての呼び出しで、セキュリティサービスのプ
 * [owasp-mastg Testing the Purposes of Keys (MSTG-CRYPTO-5) Static Analysis](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#static-analysis-2)
 
 ルールブック
-* [目的に応じた暗号化を使用する（必須）](#目的に応じた暗号化を使用する必須)
+* [目的に応じた暗号化を使用する（必須）](目的に応じた暗号化を使用する（必須）)
 
 #### 動的解析
-※暗号化鍵の利用目的と再利用の検証の動的解析については、<a href="#mstg-crypto-1-dynamic-analysis">「MSTG-CRYPTO-1 3.1.2.2. 動的解析」</a>の内容を確認すること。<br>
+※暗号化鍵の利用目的と再利用の検証の動的解析については、<a href="#mstg-crypto-2-overview">「MSTG-CRYPTO-1 3.1.2.2. 動的解析」</a>の内容を確認すること。<br>
 
 参考資料
 * [owasp-mastg Testing the Purposes of Keys (MSTG-CRYPTO-5) Dynamic Analysis](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#dynamic-analysis-2)
 
 ### ルールブック
-1. [目的に応じた暗号化を使用する（必須）](#目的に応じた暗号化を使用する必須)
+1. [目的に応じた暗号化を使用する（必須）](目的に応じた暗号化を使用する（必須）)
 
 #### 目的に応じた暗号化を使用する（必須）
 
@@ -1006,7 +756,7 @@ getInstanceのすべての呼び出しで、セキュリティサービスのプ
 * [owasp-mastg Testing Random Number Generation (MSTG-CRYPTO-6) Overview](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#overview-3)
 
 ルールブック
-* [セキュアな乱数ジェネレーターと設定を使用する（必須）](#セキュアな乱数ジェネレーターと設定を使用する必須)
+* [セキュアな乱数ジェネレーターと設定を使用する（必須）](セキュアな乱数ジェネレーターと設定を使用する（必須）)
 
 #### セキュアな乱数ジェネレーター
 
@@ -1016,7 +766,7 @@ getInstanceのすべての呼び出しで、セキュリティサービスのプ
 * [owasp-mastg Testing Random Number Generation (MSTG-CRYPTO-6) Static Analysis](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#static-analysis-3)
 
 ルールブック
-* [セキュアな乱数ジェネレーターと設定を使用する（必須）](#セキュアな乱数ジェネレーターと設定を使用する必須)
+* [セキュアな乱数ジェネレーターと設定を使用する（必須）](セキュアな乱数ジェネレーターと設定を使用する（必須）)
 
 #### セキュアでない乱数ジェネレーター
 
@@ -1033,10 +783,10 @@ getInstanceのすべての呼び出しで、セキュリティサービスのプ
 * [owasp-mastg Testing Random Number Generation (MSTG-CRYPTO-6) Dynamic Analysis](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#dynamic-analysis-3)
 
 ルールブック
-* [セキュアな乱数ジェネレーターと設定を使用する（必須）](#セキュアな乱数ジェネレーターと設定を使用する必須)
+* [セキュアな乱数ジェネレーターと設定を使用する（必須）](セキュアな乱数ジェネレーターと設定を使用する（必須）)
 
 ### ルールブック
-1. [セキュアな乱数ジェネレーターと設定を使用する（必須）](#セキュアな乱数ジェネレーターと設定を使用する必須)
+1. [セキュアな乱数ジェネレーターと設定を使用する（必須）](セキュアな乱数ジェネレーターと設定を使用する（必須）)
 
 #### セキュアな乱数ジェネレーターと設定を使用する（必須）
 
@@ -1048,17 +798,9 @@ getInstanceのすべての呼び出しで、セキュリティサービスのプ
 SecureRandom を利用する場合は、[引数なしのコンストラクタ](https://wiki.sei.cmu.edu/confluence/display/java/MSC02-J.+Generate+strong+random+numbers)により、インスタンスを生成する。シード値を指定してインスタンスを生成した場合、ランダム性が低下する場合がある。そのため、システムにより指定されたシード値を使用して 128 バイト長の乱数を生成する。
 
 以下ソースコードは SecureRandom の引数なしのコンストラクタによるインスタンス生成例。
-```java
-import java.security.SecureRandom;
-// ...
- 
-public static void main (String args[]) {
-  SecureRandom number = new SecureRandom();
-  // Generate 20 integers 0..20
-  for (int i = 0; i < 20; i++) {
-    System.out.println(number.nextInt(21));
-  }
-}
+```{literalinclude} \sourceCode\暗号化要件\MSTG-CRYPTO-6\SecureRandom1.java
+   :language: java
+   :encoding: utf-8
 ```
 
 一方、セキュアでない乱数ジェネレーターには以下のものがある。
@@ -1067,17 +809,9 @@ public static void main (String args[]) {
 上記は擬似乱数ジェネレーター（ PRNG ）であり、セキュリティが重視されるコンテキストでは使用すべきではない。擬似乱数ジェネレーターは、ジェネレーターが既知でシード値を推測できる場合、[予測可能な数値を生成できる](https://wiki.sei.cmu.edu/confluence/display/java/MSC63-J.+Ensure+that+SecureRandom+is+properly+seeded)。
 
 以下ソースコードは java.util.Random による乱数の生成例。
-```java
-import java.util.Random;
-// ...
- 
-Random number = new Random(123L);
-//...
-for (int i = 0; i < 20; i++) {
-  // Generate another random integer in the range [0, 20]
-  int n = number.nextInt(21);
-  System.out.println(n);
-}
+```{literalinclude} \sourceCode\暗号化要件\MSTG-CRYPTO-6\Random1.java
+   :language: java
+   :encoding: utf-8
 ```
 
 これに違反する場合、以下の可能性がある。
