@@ -1,3 +1,5 @@
+<a href="assets/images/masdg_position.png"><img width="180px" align="right" style="float: right;" src="assets/images/cover.png"></a>
+
 # Mobile Application Security Design Guide
 OWASP Foundation Web Respository
 
