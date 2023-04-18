@@ -99,8 +99,4 @@ Koki Takeyama
 **2023-04-01**
 
 ## Connect with Us
-<ul>
-<li>
-<a href="https://twitter.com/yoshiaki_yasuda"><img src="assets/images/twitter_icon.png" width="14px"> @yoshiaki_yasuda </a> (Yoshiaki Yasuda, Project Lead)</li>
-</ul>
-
+  - [Yoshiaki Yasuda](mailto:yoshiaki.yasuda@owasp.org), Project Lead (twitter: [@Yoshiaki Yasuda](https://twitter.com/yoshiaki_yasuda))
