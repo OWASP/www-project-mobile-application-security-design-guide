@@ -7,7 +7,7 @@ OWASP Foundation Web Respository
 [![Creative Commons License](https://img.shields.io/github/license/OWASP/owasp-mastg)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 
 ![HTML Document](https://img.shields.io/badge/HTML%20Document-passing-blue)
-![Markdown Document](https://img.shields.io/badge/Markdown-comming%20soon-orange)
+![Markdown Document](https://img.shields.io/badge/Markdown-coming%20soon-orange)
 ![release date](https://img.shields.io/badge/release%20date-April%202023-red)
 ![platform](https://img.shields.io/badge/platform-iOS%20Android-lightgrey)
 
@@ -99,8 +99,4 @@ Koki Takeyama
 **2023-04-01**
 
 ## Connect with Us
-<ul>
-<li>
-<a href="https://twitter.com/yoshiaki_yasuda"><img src="assets/images/twitter_icon.png" width="14px"> @yoshiaki_yasuda </a> (Yoshiaki Yasuda, Project Lead)</li>
-</ul>
-
+  - [Yoshiaki Yasuda](mailto:yoshiaki.yasuda@owasp.org), Project Lead (twitter: [@Yoshiaki Yasuda](https://twitter.com/yoshiaki_yasuda))
