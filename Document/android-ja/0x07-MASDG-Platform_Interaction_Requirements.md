@@ -1992,12 +1992,12 @@ IPC メカニズムのリストを特定したら、ソースコードをレビ�
 * [Sieve](https://github.com/mwrlabs/drozer/releases/download/2.3.4/sieve.apk)
    
    参考
-   * [Activity の公開](Activity_の公開)
-   * [Service の公開](Service_の公開)
+   * [Activity の公開](#activity-の公開)
+   * [Service の公開](#service-の公開)
 * [Android Insecure Bank](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x08b-Reference-Apps.md#insecurebankv2)
    
    参考
-   * [BroadcastReceiver の公開](BroadcastReceiver_の公開)
+   * [BroadcastReceiver の公開](#broadcastreceiver-の公開)
 
 参考資料
  * [owasp-mastg Testing for Sensitive Functionality Exposure Through IPC (MSTG-PLATFORM-4) Static Analysis](https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#static-analysis-4)
