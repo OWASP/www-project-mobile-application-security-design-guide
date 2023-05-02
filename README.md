@@ -96,7 +96,6 @@ Koki Takeyama
 **OWASP MASTG ja Author**  
 Koki Takeyama
 
-
 ## Revision history
 **2023-04-01**
 ### Repository
