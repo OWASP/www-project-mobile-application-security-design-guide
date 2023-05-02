@@ -69,7 +69,7 @@ Document Repository - <https://github.com/coky-t/owasp-mastg-ja>
 <BR>
 
 **OWASP MASVS Authors**
-<BR>
+
 
 | Project Lead | Lead Author | Contributors and Reviewes |
 | ------- | --- | ----------------- |
