@@ -97,6 +97,8 @@ Koki Takeyama
 
 ## Revision history
 **2023-04-01**
+### Repository
+* [https://github.com/OWASP/www-project-mobile-application-security-design-guide](#)
 
 ## Connect with Us
   - [Yoshiaki Yasuda](mailto:yoshiaki.yasuda@owasp.org), Project Lead (twitter: [@Yoshiaki Yasuda](https://twitter.com/yoshiaki_yasuda))
