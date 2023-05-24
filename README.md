@@ -37,6 +37,11 @@ We have received feedback on MASVS and MASTG from various communities and indust
 | Japanese Edition | English Edition | Japanese Edition | English Edition |
 
 <BR>
+ 
+## Read the MASDG PDF
+:arrow_forward: [Download the PDF Document](https://github.com/OWASP/www-project-mobile-application-security-design-guide/releases/tag/1.1.7)   :blue_book:
+  
+<BR>
 
 **Copyright and License**
 
