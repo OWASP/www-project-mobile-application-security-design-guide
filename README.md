@@ -39,7 +39,11 @@ We have received feedback on MASVS and MASTG from various communities and indust
 <BR>
  
 ## Read the MASDG PDF
-:arrow_forward: [Download the PDF Document](https://github.com/OWASP/www-project-mobile-application-security-design-guide/releases/tag/1.1.7)   :blue_book:
+ 
+<ul dir="auto">
+ <li><a href="https://github.com/yasuberry/LAC_masdg/releases/tag/1.1." rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the PDF Document </a> (Mobile Application Security Design Guide)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
+
+ </ul>
   
 <BR>
 
