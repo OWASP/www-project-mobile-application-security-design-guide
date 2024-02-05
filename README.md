@@ -47,6 +47,7 @@ We have received feedback on MASVS and MASTG from various communities and indust
  
 
 <BR>
+
 ## Related Documents the OWASP MASDG Checklist(English/Japanese)
  
 <ul dir="auto">
@@ -56,6 +57,7 @@ We have received feedback on MASVS and MASTG from various communities and indust
  
 
 <BR>
+
 ## Related Document the OWASP MASDG to NIST SP800-218(Secure Software Development Framework)(English/Japanese)
  
 <ul dir="auto">
