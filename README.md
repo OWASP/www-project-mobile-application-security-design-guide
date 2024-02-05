@@ -29,7 +29,7 @@ We have received feedback on MASVS and MASTG from various communities and indust
 
 <BR>
 
-## Read the MASDG
+## Read the OWASP MASDG HTML(English/Japanese)
 <BR>
 
 |[![android_ja.png](assets/images/android_ja.png)](https://jp-east.mas.scc.lac.co.jp/Android/ja/build/html/index.html "MASDG_android_ja")|[![android_en.png](assets/images/android_en.png)](https://jp-east.mas.scc.lac.co.jp/Android/en/build/html/index.html "MASDG_android_en")|[![ios_ja.png](assets/images/ios_ja.png)](https://jp-east.mas.scc.lac.co.jp/iOS/ja/build/html/index.html "MASDG_ios_ja")|[![ios_en.png](assets/images/ios_en.png)](https://jp-east.mas.scc.lac.co.jp/iOS/en/build/html/index.html "MASDG_ios_en")|
@@ -37,14 +37,34 @@ We have received feedback on MASVS and MASTG from various communities and indust
 | Japanese Edition | English Edition | Japanese Edition | English Edition |
 
 <BR>
- 
-## Read the MASDG PDF
+
+## Read the OWASP MASDG PDF(English/Japanese)
  
 <ul dir="auto">
- <li><a href="https://github.com/OWASP/www-project-mobile-application-security-design-guide/releases/tag/1.1.7" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the PDF Document </a> (Mobile Application Security Design Guide)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
+ <li><a href="https://github.com/yasuberry/LAC_masdg/releases/tag/1.1.7" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the PDF Document </a> (Mobile Application Security Design Guide)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
 
  </ul>
-  
+ 
+
+<BR>
+## Related Documents the OWASP MASDG Checklist(English/Japanese)
+ 
+<ul dir="auto">
+ <li><a href="https://github.com/yasuberry/LAC_masdg/releases/tag/1.2.0" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the XLSX Document </a> (MASDG Checklist)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
+
+ </ul>
+ 
+
+<BR>
+## Related Document the OWASP MASDG to NIST SP800-218(Secure Software Development Framework)(English/Japanese)
+ 
+<ul dir="auto">
+ <li><a href="https://github.com/yasuberry/LAC_masdg/releases/tag/1.2.1" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the XLSX Document </a> (OWASP MASDG to NISP SP800-218)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
+
+ </ul>
+ 
+<BR>
+
 <BR>
 
 **Copyright and License**
@@ -77,9 +97,7 @@ Document Repository - <https://github.com/coky-t/owasp-mastg-ja>
 
 <BR>
 
-**OWASP MASVS Authors**
-
-
+**OWASP MASVS Authors**  
 | Project Lead | Lead Author | Contributors and Reviewes |
 | ------- | --- | ----------------- |
 | Sven Schleier and Carlos Holguera | Bernhard Mueller, Sven Schleier, Jeroen Willemsen and Carlos Holguera | Alexander Antukh, Mesheryakov Aleksey, Elderov Ali, Bachevsky Artem, Jeroen Beckers, Jon-Anthoney de Boer, Damien Clochard, Ben Cheney, Will Chilcutt, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, @empty_jack, Ben Gardiner, Anton Glezman, Josh Grossman, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, @PierrickV, Julia Potapenko, Andrew Orobator, Mehrad Rafii, Javier Ruiz, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Pauchard Thomas, Lukasz Wierzbicki |
@@ -105,12 +123,15 @@ Koki Takeyama
 **OWASP MASTG ja Author**  
 Koki Takeyama
 
-<BR>
 
 ## Revision history
 **2023-04-01**
 ### Repository
-* [https://github.com/OWASP/www-project-mobile-application-security-design-guide](#)
+* [https://github.com/yasuberry/LAC_masdg](#)
 
 ## Connect with Us
-  - [Yoshiaki Yasuda](mailto:yoshiaki.yasuda@owasp.org), Project Lead (twitter: [@Yoshiaki Yasuda](https://twitter.com/yoshiaki_yasuda))
+  - [Yoshiaki Yasuda](mailto:yoshiaki.yasuda@owasp.org), Project Lead (X: [@Yoshiaki Yasuda](https://twitter.com/yoshiaki_yasuda))
+
+## 日本語訳について
+OWASP モバイルアプリケーションセキュリティデザインガイドは、モバイルアプリケーション開発時に要求されるセキュア設計の推奨事項をルールブックとして公開しています。
+AndroidOS、iOS のアプリ開発時にご参照いただけますと幸いです。
