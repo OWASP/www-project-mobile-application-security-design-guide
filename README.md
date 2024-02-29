@@ -129,7 +129,7 @@ Koki Takeyama
 ## Revision history
 **2023-04-01**
 ### Repository
-* [https://github.com/yasuberry/LAC_masdg](#)
+* [https://github.com/OWASP/www-project-mobile-application-security-design-guide](#)
 
 ## Connect with Us
   - [Yoshiaki Yasuda](mailto:yoshiaki.yasuda@owasp.org), Project Lead (X: [@Yoshiaki Yasuda](https://twitter.com/yoshiaki_yasuda))
