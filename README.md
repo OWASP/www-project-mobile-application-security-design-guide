@@ -1,7 +1,7 @@
 <a href="assets/images/masdg_cover.png"><img width="180px" align="right" style="float: right;" src="assets/images/masdg_cover.png"></a>
 
 # Mobile Application Security Design Guide
-OWASP Foundation Web Respository
+OWASP Foundation Web Repository
 
 [![OWASP Flagship project](https://img.shields.io/badge/OWASP-incubator-brightgreen)](https://owasp.org/projects/)
 [![Creative Commons License](https://img.shields.io/github/license/OWASP/owasp-mastg)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
@@ -27,21 +27,33 @@ Our proprietary rulebook targets the MASVS1.5 L1 verification standard and aims 
 
 We have received feedback on MASVS and MASTG from various communities and industries, and we have developed and published MASDG as we believe it is essential to tackle the security risks associated with mobile applications that have become indispensable in our society. We welcome feedback from everyone.
 
-<BR>
 
-## Read the OWASP MASDG HTML(English/Japanese)
-<BR>
-
-|[![android_ja.png](assets/images/android_ja.png)](https://jp-east.mas.scc.lac.co.jp/Android/ja/build/html/index.html "MASDG_android_ja")|[![android_en.png](assets/images/android_en.png)](https://jp-east.mas.scc.lac.co.jp/Android/en/build/html/index.html "MASDG_android_en")|[![ios_ja.png](assets/images/ios_ja.png)](https://jp-east.mas.scc.lac.co.jp/iOS/ja/build/html/index.html "MASDG_ios_ja")|[![ios_en.png](assets/images/ios_en.png)](https://jp-east.mas.scc.lac.co.jp/iOS/en/build/html/index.html "MASDG_ios_en")|
-|---|---|---|---|
-| Japanese Edition | English Edition | Japanese Edition | English Edition |
 
 <BR>
 
 ## Read the OWASP MASDG PDF(English/Japanese)
  
 <ul dir="auto">
- <li><a href="https://github.com/yasuberry/LAC_masdg/releases/tag/1.1.7" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the PDF Document </a> (Mobile Application Security Design Guide)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
+ <li><a href="https://github.com/OWASP/www-project-mobile-application-security-design-guide/releases/tag/1.1.7" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the PDF Document </a> (Mobile Application Security Design Guide)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
+
+ </ul>
+ 
+<BR>
+
+## Related Documents the OWASP MASDG Checklist(English/Japanese)
+ 
+<ul dir="auto">
+ <li><a href="https://github.com/OWASP/www-project-mobile-application-security-design-guide/releases/tag/1.2.0" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the XLSX Document </a> (MASDG Checklist)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
+
+ </ul>
+ 
+
+<BR>
+
+## Related Document the OWASP MASDG to NIST SP800-218(Secure Software Development Framework)(English/Japanese)
+ 
+<ul dir="auto">
+ <li><a href="https://github.com/OWASP/www-project-mobile-application-security-design-guide/releases/tag/1.2.1" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the XLSX Document </a> (OWASP MASDG to NISP SP800-218)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
 
  </ul>
  
@@ -69,14 +81,16 @@ We have received feedback on MASVS and MASTG from various communities and indust
 
 <BR>
 
+<BR>
+
 **Copyright and License**
 
 [![Creative Commons License](assets/images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2023 LAC Co., Ltd. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
+Copyright © The OWASP Foundation. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
 
 * The contents of this guide are current as of the time of writing. Please be aware of this if you use the sample code.
-* LAC Co., Ltd. and the authors are not responsible for any consequences resulting from the use of this guide. Please use at your own risk.
+* The authors are not responsible for any consequences resulting from the use of this guide. Please use at your own risk.
 * Android is a trademark or registered trademark of Google LLC. Company names, product names, and service names mentioned in this document are generally registered trademarks or trademarks of their respective companies. The ®, TM, and © symbols are not used throughout this document.
 * Some of the content in this document is based on the materials provided by OWASP MASVS and OWASP MASTG, and has been replicated and revised.
 
@@ -125,15 +139,23 @@ Koki Takeyama
 **OWASP MASTG ja Author**  
 Koki Takeyama
 
+## Project Supporter
+Riotaro Okada
 
 ## Revision history
 **2023-04-01**
 ### Repository
-* [https://github.com/yasuberry/LAC_masdg](#)
+* [https://github.com/OWASP/www-project-mobile-application-security-design-guide](#)
+
+## Changelog
+
+All our Changelogs are available online at the OWASP MASDG GitHub repository, see the Releases page:
+
+* <https://github.com/OWASP//www-project-mobile-application-security-design-guide/releases>
 
 ## Connect with Us
   - [Yoshiaki Yasuda](mailto:yoshiaki.yasuda@owasp.org), Project Lead (X: [@Yoshiaki Yasuda](https://twitter.com/yoshiaki_yasuda))
 
 ## 日本語訳について
-OWASP モバイルアプリケーションセキュリティデザインガイドは、モバイルアプリケーション開発時に要求されるセキュア設計の推奨事項をルールブックとして公開しています。
+OWASP モバイルアプリケーションセキュリティデザインガイドは、OWASP MSTG や OWASP MASVSなどの OWASPプロジェクトと連携したモバイルアプリのセキュア設計・開発に必要な知識や技術をルールブックとして公開しています。
 AndroidOS、iOS のアプリ開発時にご参照いただけますと幸いです。

@@ -1,7 +1,6 @@
 # Mobile Application Security Design Guide Android Edition
 
 **April 1, 2023 Edition**&#010;<br>
-**LAC Co., Ltd.**
 
 Welcome to Mobile Application Security Design Guide Android Edition.
 
@@ -16,10 +15,10 @@ We have received feedback on MASVS and MASTG from various communities and indust
 **Copyright and License**  
 <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="images/0x01/by-sa.png" alt="CC BY-SA 4.0" width="200"></a>
 
-Copyright © 2023 LAC Co., Ltd. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
+Copyright © The OWASP Foundation. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
 
 * The contents of this guide are current as of the time of writing. Please be aware of this if you use the sample code.
-* LAC Co., Ltd. and the authors are not responsible for any consequences resulting from the use of this guide. Please use at your own risk.
+* The authors are not responsible for any consequences resulting from the use of this guide. Please use at your own risk.
 * Android is a trademark or registered trademark of Google LLC. Company names, product names, and service names mentioned in this document are generally registered trademarks or trademarks of their respective companies. The ®, TM, and © symbols are not used throughout this document.
 * Some of the content in this document is based on the materials provided by OWASP MASVS and OWASP MASTG, and has been replicated and revised.
 
@@ -67,6 +66,9 @@ Koki Takeyama
 - [Network Communication Requirements](0x06-MASDG-Network_Communication_Requirements.md)
 - [Platform Interaction Requirements](0x07-MASDG-Platform_Interaction_Requirements.md)
 - [Code Quality and Build Setting Requirements](0x08-MASDG-Code_Quality_and_Build_Setting_Requirements.md)
+
+## Project Supporter
+Riotaro Okada
 
 ## Revision history
 **2023-04-01**
