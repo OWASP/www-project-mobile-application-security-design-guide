@@ -136,5 +136,5 @@ All our Changelogs are available online at the OWASP MASDG GitHub repository, se
   - [Yoshiaki Yasuda](mailto:yoshiaki.yasuda@owasp.org), Project Lead (X: [@Yoshiaki Yasuda](https://twitter.com/yoshiaki_yasuda))
 
 ## 日本語訳について
-OWASP モバイルアプリケーションセキュリティデザインガイドは、モバイルアプリケーション開発時に要求されるセキュア設計の推奨事項をルールブックとして公開しています。
+OWASP モバイルアプリケーションセキュリティデザインガイドは、OWASP MSTG や OWASP MASVSなどの OWASPプロジェクトと連携したモバイルアプリのセキュア設計・開発に必要な知識や技術をルールブックとして公開しています。
 AndroidOS、iOS のアプリ開発時にご参照いただけますと幸いです。
