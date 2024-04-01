@@ -69,7 +69,7 @@ We have received feedback on MASVS and MASTG from various communities and indust
 Copyright © The OWASP Foundation. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
 
 * The contents of this guide are current as of the time of writing. Please be aware of this if you use the sample code.
-* the authors are not responsible for any consequences resulting from the use of this guide. Please use at your own risk.
+* The authors are not responsible for any consequences resulting from the use of this guide. Please use at your own risk.
 * Android is a trademark or registered trademark of Google LLC. Company names, product names, and service names mentioned in this document are generally registered trademarks or trademarks of their respective companies. The ®, TM, and © symbols are not used throughout this document.
 * Some of the content in this document is based on the materials provided by OWASP MASVS and OWASP MASTG, and has been replicated and revised.
 
