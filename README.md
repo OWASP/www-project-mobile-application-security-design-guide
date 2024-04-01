@@ -131,6 +131,12 @@ Koki Takeyama
 ### Repository
 * [https://github.com/OWASP/www-project-mobile-application-security-design-guide](#)
 
+## Changelog
+
+All our Changelogs are available online at the OWASP MASDG GitHub repository, see the Releases page:
+
+<https://github.com/OWASP//www-project-mobile-application-security-design-guide/releases>
+
 ## Connect with Us
   - [Yoshiaki Yasuda](mailto:yoshiaki.yasuda@owasp.org), Project Lead (X: [@Yoshiaki Yasuda](https://twitter.com/yoshiaki_yasuda))
 
