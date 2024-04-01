@@ -27,14 +27,7 @@ Our proprietary rulebook targets the MASVS1.5 L1 verification standard and aims 
 
 We have received feedback on MASVS and MASTG from various communities and industries, and we have developed and published MASDG as we believe it is essential to tackle the security risks associated with mobile applications that have become indispensable in our society. We welcome feedback from everyone.
 
-<BR>
 
-## Read the OWASP MASDG HTML(English/Japanese)
-<BR>
-
-|[![android_ja.png](assets/images/android_ja.png)](https://jp-east.mas.scc.lac.co.jp/Android/ja/build/html/index.html "MASDG_android_ja")|[![android_en.png](assets/images/android_en.png)](https://jp-east.mas.scc.lac.co.jp/Android/en/build/html/index.html "MASDG_android_en")|[![ios_ja.png](assets/images/ios_ja.png)](https://jp-east.mas.scc.lac.co.jp/iOS/ja/build/html/index.html "MASDG_ios_ja")|[![ios_en.png](assets/images/ios_en.png)](https://jp-east.mas.scc.lac.co.jp/iOS/en/build/html/index.html "MASDG_ios_en")|
-|---|---|---|---|
-| Japanese Edition | English Edition | Japanese Edition | English Edition |
 
 <BR>
 
