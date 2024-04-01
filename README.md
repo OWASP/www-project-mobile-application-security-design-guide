@@ -118,6 +118,8 @@ Koki Takeyama
 **OWASP MASTG ja Author**  
 Koki Takeyama
 
+## Project Supporter
+Riotaro Okada
 
 ## Revision history
 **2023-04-01**
