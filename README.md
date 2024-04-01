@@ -129,6 +129,8 @@ Riotaro Okada
 * [https://github.com/OWASP/www-project-mobile-application-security-design-guide](#)
 
 ## Changelog
+**2023-04-01**
+LAC’s MASDG document opened as an OWASP project.
 
 All our Changelogs are available online at the OWASP MASDG GitHub repository, see the Releases page:
 
