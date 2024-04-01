@@ -34,10 +34,11 @@ We have received feedback on MASVS and MASTG from various communities and indust
 ## Read the OWASP MASDG PDF(English/Japanese)
  
 <ul dir="auto">
- <li><a href="https://github.com/OWASP/www-project-mobile-application-security-design-guide/releases/tag/1.1.7" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the PDF Document </a> (Mobile Application Security Design Guide)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
+ <li><a href="https://github.com/yasuberry/LAC_masdg/releases/tag/1.1.7" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the PDF Document </a> (Mobile Application Security Design Guide)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
 
  </ul>
  
+
 <BR>
 
 ## Related Documents the OWASP MASDG Checklist(English/Japanese)
@@ -54,26 +55,6 @@ We have received feedback on MASVS and MASTG from various communities and indust
  
 <ul dir="auto">
  <li><a href="https://github.com/OWASP/www-project-mobile-application-security-design-guide/releases/tag/1.2.1" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the XLSX Document </a> (OWASP MASDG to NISP SP800-218)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
-
- </ul>
- 
-
-<BR>
-
-## Related Documents the OWASP MASDG Checklist(English/Japanese)
- 
-<ul dir="auto">
- <li><a href="https://github.com/yasuberry/LAC_masdg/releases/tag/1.2.0" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the XLSX Document </a> (MASDG Checklist)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
-
- </ul>
- 
-
-<BR>
-
-## Related Document the OWASP MASDG to NIST SP800-218(Secure Software Development Framework)(English/Japanese)
- 
-<ul dir="auto">
- <li><a href="https://github.com/yasuberry/LAC_masdg/releases/tag/1.2.1" rel="nofollow"><img src="assets/images/arrow_forward.png" width="22px" style="max-width: 100%;"> Download the XLSX Document </a> (OWASP MASDG to NISP SP800-218)<img src="assets/images/blue_book.png" width="22px" style="max-width: 100%;"> </li>
 
  </ul>
  
