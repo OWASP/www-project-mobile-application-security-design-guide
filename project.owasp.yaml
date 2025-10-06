@@ -1,0 +1,19 @@
+audience:
+  - builder
+leaders:
+  - name: Yoshiaki Yasuda
+    email: yoshiaki.yasuda@lac.co.jp
+    github: yasuberry
+level: 2
+name: Mobile Application Security Design Guide
+pitch: Description for Mobile Application Security Design Guide
+repositories:
+  - name: www-project-mobile-application-security-design-guide
+    url: https://github.com/OWASP/www-project-mobile-application-security-design-guide
+    description: Mobile Application Security Design Guide
+tags:
+  - custom-tag-1
+  - custom-tag-2
+  - custom-tag-3
+type: documentation
+website: https://owasp.org/www-project-mobile-application-security-design-guide
